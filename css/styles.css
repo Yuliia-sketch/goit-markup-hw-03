@@ -125,6 +125,10 @@ a{
     background-color: #404BBF;
 }
 /*Feature*/
+.page-feature{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -137,7 +141,16 @@ a{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.feature-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.feature-items{
+    width: calc((100%-76px)/3);
+}
 .feature-title{
+    padding: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
