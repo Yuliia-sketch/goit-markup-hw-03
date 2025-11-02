@@ -191,10 +191,13 @@ a{
     background: #fff;
 
 }
-.team-title{
+.container-team-title{
     padding-top: 32px;
     padding-bottom: 32px;
     margin-bottom: 8px;
+    text-align: center;
+  }
+.team-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
