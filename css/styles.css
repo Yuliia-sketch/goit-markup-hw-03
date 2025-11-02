@@ -86,7 +86,13 @@ a{
 }
 /*hero*/
 .hero-title{
-    margin: margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    align-items: center;
 }
 .page-hero{
     background: #2e2f42;
