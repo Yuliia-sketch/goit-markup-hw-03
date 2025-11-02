@@ -150,7 +150,7 @@ a{
     width: calc((100%-76px)/3);
 }
 .feature-title{
-    padding: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -164,10 +164,15 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*Our team*/
 .team{
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #f4f4fd;
 }
 .main-title,.main-title-portfolio{
+    padding-top: 120px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -176,11 +181,20 @@ a{
     color: #2e2f42;
     text-transform: capitalize;
 }
+.team-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 .team-items{
+    border-radius: 0 0 4px 4px;
     background: #fff;
 
 }
 .team-title{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
