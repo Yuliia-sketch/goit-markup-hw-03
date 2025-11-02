@@ -150,6 +150,7 @@ a{
     width: calc((100%-76px)/3);
 }
 .feature-title{
+    visibility: hidden;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
