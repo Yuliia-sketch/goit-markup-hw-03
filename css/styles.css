@@ -207,10 +207,10 @@ a{
 .container-team-title{
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-bottom: 8px;
     text-align: center;
   }
 .team-title{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
